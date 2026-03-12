@@ -1,0 +1,14 @@
+{
+  "name": "kiwi-tcms-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Kiwi TCMS - generate and push test cases",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "node-fetch": "^3.3.2"
+  }
+}
